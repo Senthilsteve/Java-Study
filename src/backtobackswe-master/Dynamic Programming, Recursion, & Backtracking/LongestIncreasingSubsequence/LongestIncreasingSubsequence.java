@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /*
   This repository is no longer actively maintained. To find all solutions
   to this problem (and practice coding more problems) at:
@@ -21,6 +23,7 @@ class Solution {
       subsequence ending at index i of the original array?"
     */
     int[] maxLength = new int[nums.length];
+    
     Arrays.fill(maxLength , 1);
 
     // By default the best answer is a length of 1

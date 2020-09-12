@@ -1,4 +1,4 @@
-
+//URL :- https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
 public class Longest_Increasing_Subsequence {
 
 		/* A Naive Java Program for LIS Implementation */
@@ -85,14 +85,14 @@ public class Longest_Increasing_Subsequence {
 			public static void main(String args[]) 
 			{ 
 				long startTime = System.nanoTime();
-				int arr[] = { 3,10,2,11 }; 
+				int arr[] = { 9,3,5,10,2,11 }; 
 				int n = arr.length; 
 				System.out.println("Length of lis is "
 								+ lis(arr, n) + "\n"); 
 				long endTime = System.nanoTime();
 				System.out.println("Took "+(endTime - startTime) + " ns");
 				startTime = System.nanoTime();
-				int arr_dy[] = { 3,10,2,11 }; 
+				int arr_dy[] = { 9,3,5,10,2,11 };  
 				 n = arr_dy.length; 
 				System.out.println("Length of lis is "
 								+ lis_dynamic( arr_dy, n ) + "\n" ); 
