@@ -31,6 +31,8 @@ public class recurssion {
 	}
 	public static void main(String[] args) {
 		long startTime = System.nanoTime();
+		recurssion recsd = null;
+		System.out.println(recsd instanceof recurssion);
 		recurssion rec = new recurssion();
 		int num = 8 ;
 		System.out.println(rec.fib_recurrive(num));
